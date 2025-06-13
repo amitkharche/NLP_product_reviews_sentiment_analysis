@@ -5,19 +5,19 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.22.0-red)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2.2-orange)
 
-## 📌 Business Use Case
+## Business Use Case
 
 Customer reviews hold valuable insights for businesses. Sentiment analysis helps:
 - Understand user satisfaction
 - Identify product issues
 - Improve services based on real feedback
 
-## 🧠 Features Used
+## Features Used
 
 - **Text (Review)** is converted using TF-IDF Vectorization.
 - **Model:** Logistic Regression classifier.
 
-## ⚙️ Pipeline Overview
+## Pipeline Overview
 
 ### Training (`model_training.py`)
 - Load data
@@ -30,19 +30,26 @@ Customer reviews hold valuable insights for businesses. Sentiment analysis helps
 - Run predictions
 - Display and download results
 
-## 🚀 Usage
+## Usage
 
-### 1. Install dependencies
+### 1. Clone the repository
+   ```bash
+   git clone https://github.com/amitkharche/NLP_sentiment_analysis_project.git
+   cd NLP_sentiment_analysis_project
+
+   ```
+
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Train model
+### 3. Train model
 ```bash
 python model_training.py
 ```
 
-### 3. Run Streamlit app
+### 4. Run Streamlit app
 ```bash
 streamlit run app.py
 ```
@@ -59,5 +66,12 @@ sentiment_analysis_project/
 └── .github/
 ```
 
-## 📝 License
+## License
 This project is licensed under the MIT License.
+
+## Contact
+
+If you have questions or want to collaborate, feel free to connect with me on
+- [LinkedIn](https://www.linkedin.com/in/amit-kharche)  
+- [Medium](https://medium.com/@amitkharche14)  
+- [GitHub](https://github.com/amitkharche)
